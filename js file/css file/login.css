@@ -1,0 +1,40 @@
+
+
+body {
+text-align: center;
+background-color: white;
+background-image: url( gratisography.com/photo/desert-cliff-landscape/)
+
+} 
+
+form {
+  width: 25%;
+  padding: 30px;
+  margin: 20px;
+   border: solid ;
+   border-color: white;
+  border-radius: 20px;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+
+#email {
+width: 220px;
+height: 30px;	
+border-radius: 7px; }
+
+#pass{
+width: 220px;
+height: 30px;	
+border-radius: 7px; }
+
+
+#submit { 
+height: 30px; 
+color: white;
+width: 70px;
+background: red;
+border-radius: 10px;   
+border-color: red;     }  

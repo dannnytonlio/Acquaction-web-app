@@ -1,0 +1,131 @@
+
+body  { 
+ text-align: center;   
+ margin: auto; 
+ font-family: 'lora', sans-serif; 
+ }
+ 
+h1 {
+	color: blue;
+	font-family: 'Advent Pro'  , sans-serif;
+	}
+
+h2 {
+	font-size: 40px;
+	}
+
+header {
+	background: #008489;
+	height: 66px;
+    position: fixed;
+	top: 0;
+	width: 100%;
+	}
+	
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 22px;
+  padding-left: 27px;
+  font-size: 17px;
+  text-decoration: none;
+ 
+}
+
+nav ul li a:hover {
+   background: #006669;
+   transition: 0.5s;
+  
+}
+
+nav
+{
+    flex: 1;
+}
+header .logo {
+	float: left;
+	height: inherit;
+	margin-left: 10px;
+	}
+
+input .search {
+    margin: .4rem 0;
+	margin-right:0px;
+	margin-right: 10px;
+	color: black;
+	padding: 10px;
+	padding-right: 27px;
+    width: 160px;
+    height: 30px;	
+    border-radius: 40px;
+	border-color: black;
+ /*search bar settings*/
+}
+
+header .logo-text {
+	margin: 17px;
+	font-family: 'candal', sans-serif;
+	color: white;
+	}
+
+header .logo-text span {
+	color: #05f7ff;
+	}
+
+.container {
+	margin: 0;
+	padding: 100px;
+	padding-left: 50px;
+	padding-right:60px;
+	padding-top: 50px;
+	
+	}
+	
+section img {
+	margin: 0;
+	padding: 100px;
+	padding-left: 50px;
+	padding-right:60px;
+	padding-top: 50px;
+	
+	}
+	
+	
+.info {
+ font-size: 20px;
+ color: blue;
+
+	}
+
+.link {
+  text-decoration: none;
+  color:blue;
+	}
+
+.link:hover {
+  text-decoration: underline;
+	}
+			
+.clear {
+  clear: both;
+	}
+
+footer {
+	background-color:#20c7c4 ;
+	padding-bottom: 5px;
+    right: 100px;
+	
+	}
+	
+
+	

@@ -1,0 +1,69 @@
+ <!DOCTYPE html>          
+  <html lang= "en">     
+   <head> 
+     <meta charset="UTF-8">
+    <title>AcquAction-login </title>
+  	<!---i had linked my css file----->
+   <link rel="stylesheet" href="login.css"> 
+       	<!---font awesome----->
+   <link rel="stylesheet"  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+  	<!---google fonts----->
+   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+
+   </head>
+ 
+   <body>
+    <header>
+     <div class="logo">
+	  <h1 class="logo-text"><span>Acqu</span>Action</h1>
+	  </div>
+	   <nav class="menu">
+	    <ul>
+	      <li><a href='file:///C:/Users/danny%20tonlio/Desktop/appunti/appunti%20del%20terzo%20anno/SAW/acquaction/html%20file/index.html'  style="color:white;">Home</a></li>
+	      <li><a href='file:///C:/Users/danny%20tonlio/Desktop/appunti/appunti%20del%20terzo%20anno/SAW/acquaction/html%20file/seeprojects.html' style="color:white;">See projects</a></li>
+          <li><a href='file:///C:/Users/danny%20tonlio/Desktop/appunti/appunti%20del%20terzo%20anno/SAW/acquaction/html%20file/contactus.html' style="color:white;">Contact Us</a></li>
+		  <li><a href='file:///C:/Users/danny%20tonlio/Desktop/appunti/appunti%20del%20terzo%20anno/SAW/acquaction/html%20file/registration.html'  style="color:white;">Registration</a></li>
+	      <li><a href='file:///C:/Users/danny%20tonlio/Desktop/appunti/appunti%20del%20terzo%20anno/SAW/acquaction/html%20file/login.html'  style="color:white;"><b>Login</b></a></li>
+		  <input type="search" id="search" placeholder="cerca..." style="margin:17px;margin-right:2px;border-radius:5px;width:200px;height:30px;"><button style="border-radius:5px;margin:17px;margin-left:0px;background-color:white;height:30px;"><b>Search</b></button>
+   
+	   </ul>
+	  </nav>
+    </header>
+
+ <section>
+	<div class="input-icone">
+    <h2>Login</h2>
+    </div>
+	
+ <form action="login.php" method="post" class="form" id="form">
+ 
+   <div class="form-control">
+     <input type="email" id="email" name="email" placeholder="E-mail"></br>
+	<i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+   </div>
+ 
+   <div class="form-control">
+      <input type="password" id ="pass" name="pass" placeholder="password"></br>
+	    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+   </div>  
+  
+   <button type="submit" id="submit"><b>Submit</b></button> 
+   <p class="message"><b>Non hai ancora un account ?</b><a href='file:///C:/Users/danny%20tonlio/Desktop/appunti/appunti%20del%20terzo%20anno/SAW/acquaction/html%20file/registration.html'> Registrati</a></p>
+ </form>
+ </section>
+    	<script src="login.js"type="text/javascript"></script>
+  </body>
+ 
+	echo'<br><br><br><br>';
+  <footer>
+		 <p>
+		 Copyright &copy 2020-2021 by AcquAction Data. All Rights Reserved.
+		 </p>
+  </footer>
+
+  </html>
+  

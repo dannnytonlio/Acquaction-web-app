@@ -1,0 +1,5 @@
+/vendor/
+connexionDB.php
+.env
+*.log
+.DS_Store

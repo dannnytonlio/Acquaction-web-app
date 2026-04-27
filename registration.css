@@ -1,0 +1,132 @@
+
+header {
+	z-index:1000;
+	background: #008489;
+	height: 66px;
+    position: fixed;
+	top: 0;
+	width: 100%;
+	}
+	
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 22px;
+  padding-left: 27px;
+  font-size: 17px;
+  text-decoration: none;
+ 
+}
+
+nav ul li a:hover {
+   background: #006669;
+   transition: 0.5s;
+  
+}
+
+nav
+{
+    flex: 1;
+    text-align: right;
+	font-size: 20px;
+}
+header .logo {
+	float: left;
+	height: inherit;
+	margin-left: 10px;
+    color. white;
+	}
+
+header .logo-text {
+	margin: 17px;
+	font-family: 'candal', sans-serif;
+   color: white;
+	}
+
+header .logo-text span {
+	color: #05f7ff;
+	}
+
+footer {
+    padding-bottom: 5px;
+	}
+	
+	
+header nav input {
+  margin:17px;
+  margin-right:2px;
+  border-radius:5px;
+  width:200px;
+  height:30px;
+  font-family: 'lora', sans-serif;
+  border-color: #fff;
+  outline: none;
+	}
+	
+
+body  {  
+background: url("https://cdn.pixabay.com/photo/2018/05/18/22/33/fountain-3412242_1280.jpg");
+background-attachment: fixed;
+text-align: center;  
+ margin: auto; 
+ font-family: 'lora', sans-serif; 
+} 
+
+h2 { 
+ font-size: 30px;
+ font-family: 'lora', sans-serif; 
+} 
+
+form {
+  box-shadow: 5px 10px #008489;
+  width: 28%;
+  padding: 30px;
+  margin: 20px;
+  border: solid ;
+  border-color: white;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: white;
+  opacity: 0.9;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 10px;
+	width: 330px;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+
+#submit { 
+height: 30px; 
+color: white;
+width: 70px;
+background: green;
+border-radius: 10px;   
+border-color: white;  
+   }  
+

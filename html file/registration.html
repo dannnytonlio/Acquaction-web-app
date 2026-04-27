@@ -1,0 +1,101 @@
+<!DOCTYPE html>          
+ <html lang= "it">     
+  <head> 
+    <meta charset="UTF-8">
+   <title>AcquAction-Registration</title>
+   	<!---i had linked my css file----->
+   <link rel="stylesheet" href=".css"> 
+       	<!---font awesome----->
+   <link rel="stylesheet"  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+  	<!---google fonts----->
+   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ </head>
+
+  <body>
+ 
+   <br><br></br></br>
+   
+    <section>
+    <h2>Registration</h2>
+
+	 <form action="registration.php" method="POST" class="form"id="form">    
+  
+   <div class="form-control">
+  <input type="text" id="firstname" name="firstname" class="form-control  is-invalid" placeholder ="Firstname">
+   <div class="valid-feedback feedback-icon">
+		<i class="fa fa-check"></i>
+	</div>
+   <div class="invalid-feedback feedback-icon">
+		<i class="fa fa-times"></i>
+	</div>
+      </div>         
+  <small id="output_firstname" class="mt-1"></small>
+  
+    <div class="form-control">
+   <input type="text" id="lastname" name="lastname" class="form-control  is-invalid" placeholder="Lastname">
+  <div class="valid-feedback feedback-icon">
+		<i class="fa fa-check"></i>
+	</div>
+   <div class="invalid-feedback feedback-icon">
+		<i class="fa fa-times"></i>
+	</div>
+  </div>
+	<small id="output_lastname" class="mt-1"></small>
+	
+	
+    <div class="form-control">
+   <input type="email" id= "email" name ="email" class="form-control  is-invalid" placeholder="E-mail">
+    <div class="valid-feedback feedback-icon">
+			<i class="fa fa-check"></i>
+		</div>
+	   <div class="invalid-feedback feedback-icon">
+			<i class="fa fa-times"></i>
+		</div>
+	</div>
+	<small id="output_email"></small>
+
+   
+   <div class="form-control">
+   <input type="password" id="pass" name="pass" class="form-control  is-invalid" placeholder ="Password">
+    <div class="valid-feedback feedback-icon">
+			<i class="fa fa-check"></i>
+		</div>
+	   <div class="invalid-feedback feedback-icon">
+			<i class="fa fa-times"></i>
+		</div>
+	</div>
+ <small id="output_pass1"></small>
+
+   <div class="form-control">
+   <input type="password" id ="confirm" name="confirm" class="form-control  is-invalid" placeholder="Confirm password">
+		<div class="valid-feedback feedback-icon">
+			<i class="fa fa-check"></i>
+		</div>
+	   <div class="invalid-feedback feedback-icon">
+			<i class="fa fa-times"></i>
+		</div>
+	</div>
+	<small id="output_pass2"></small>
+
+    <button type="submit" id="submit"><b>Submit</b></button>
+    <p class="message"><b>hai già un account?</b><a href='file:///C:/Users/danny%20tonlio/Desktop/appunti/appunti%20del%20terzo%20anno/SAW/acquaction/html%20file/login.html'>Login</a></p>
+	</form>
+	
+	</section>
+		<!---i had linked my javascript file----->
+	 <script src="validationAJAX.js"type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </body>
+   
+   <br><br><br>
+    <footer>
+		 <p>
+		 Copyright &copy 2021 by Danny k. for AcquAction Data. All Rights Reserved.
+		 </p>
+    </footer>
+   
+ </html>

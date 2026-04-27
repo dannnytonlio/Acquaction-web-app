@@ -1,0 +1,177 @@
+
+body {
+	background: #f6f6f6;
+	margin: 0px;
+    padding: 0px;
+	font-family: 'lora', sans-serif; 
+}
+
+header {
+	z-index:1000;
+	background: #008489;
+	height: 66px;
+    position: fixed;
+	top: 0;
+	width: 100%;
+	
+	}
+	
+
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+
+nav ul li {
+  float: left;
+  
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 22px;
+  padding-left: 27px;
+  font-size: 17px;
+  text-decoration: none;
+ 
+}
+
+nav ul li a:hover {
+   background: #006669;
+   transition: 0.5s;
+  
+}
+
+nav
+{
+    flex: 1;
+    text-align: right;
+	font-size: 20px;
+}
+header .logo {
+	float: left;
+	height: inherit;
+	margin-left: 10px;
+	color: white;
+	}
+
+
+header .logo-text {
+	margin: 17px;
+	font-family: 'candal', sans-serif;
+	}
+
+header .logo-text span {
+	color: #05f7ff;
+	}
+
+footer {
+    padding-bottom: 5px;
+	background-color:#20c7c4;
+	width: 100%;
+	text-align: center;
+	}
+	
+header ul button:hover {
+	opacity: 0.5;
+	}
+	
+header nav input{
+  margin:17px;
+  margin-right:2px;
+  border-radius:5px;
+  width:200px;
+  height:30px;
+  font-family: 'lora', sans-serif;
+	}
+	
+.head {
+  width:100%;
+	}
+	
+.container-1 *{
+  color: white;
+	}
+		
+.container-1 .text_center {
+  width:100%;
+  background: #006669;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+	}
+		
+.clear {
+  clear: both;
+	}
+	
+.container-2 {
+  width: 90%;
+  margin: 50px auto;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px ;
+  transition: 0.3s;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.card-body p a:visited {
+ color: blue;  
+ text-decoration: none;
+}
+
+.card-body .btn {
+  display: block; 
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right,#696e6d, blue);
+  margin-top: 30px;
+  text-decoration: none; 
+  padding: 10px 5px; 
+
+}
+
+.btn:hover {
+ opacity: 0.7;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.more a {
+ text-decoration: none;
+ color: blue;
+}
+
+.more a:hover {
+ text-decoration: underline;
+}
+	
